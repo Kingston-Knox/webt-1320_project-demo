@@ -4,3 +4,4 @@
 
 <a href="Project 1/index.html" target="_blank">Project 1</a>
 
+<a href="Project 2/index.html" target="_blank">Project 2</a>
