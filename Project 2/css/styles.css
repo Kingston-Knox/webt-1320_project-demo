@@ -1,10 +1,12 @@
 body{
     background-color: #0017A3;
+    font-family: 'Source Code Pro', monospace;
 }
 h2{
     background-color: aliceblue;
     color: black;
     text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 footer{
     font-weight: bold;
@@ -32,6 +34,8 @@ header{
     background-color: #5269FF;
     border: 4px solid #5269FF;
     border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 header img{
     width: 40%;
@@ -58,4 +62,57 @@ footer{
     border-radius: 0 0 20px 20px;
     text-align: center;
     padding: 40px;
+}
+nav{
+    background-color: #5269FF;
+    padding-top: 20px;
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    background-color: #EBC034;
+    height: 40px;
+    width: 180px;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 45px;
+    color: black;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 15px;
+}
+nav a:hover{
+    background-color: #9E7A02;
+    color: white;
+}
+.active{
+    background-color: #9E7A02;
+    color: white;
+}
+.hunt_plan{
+    text-align: center;
+    color: gray;
+    font-size: 2.7em;
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+.buy{
+    border: 1px solid blue;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 10px;
+}
+.trouble{
+    border: 5px solid red;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    color: red;
 }
