@@ -1,0 +1,118 @@
+/* Global styles */
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #B04600;
+}
+
+h2, h3{
+    color: darkslategray;
+    text-align: center;
+}
+
+#container{
+    background-color: #19F4FF;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* yooooo now i can say funny stuff in here too */
+
+
+header img{
+    width: 50%;
+}
+
+header h1{
+    font-size: 1.7em;
+    text-align: center;
+    color: darkslategray;
+}
+
+nav{
+    background-color: #00A5AD;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+    border-top: 4px solid #19F4FF;
+}
+
+nav li a{
+    background-color: #B04600;
+    color: whitesmoke;
+    display: block;
+    height: 35px;
+    line-height: 40px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav list a:hover{
+    background-color: #FA6300;
+    color: black;
+}
+
+main img{
+    width: 70%;
+}
+
+.col{
+    border: 4px dashed white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+footer{
+    padding: 35px;
+    text-align: center;
+    color: darkslategray;
+}
+/* the global stuff is over */
+
+/* tablet stuff now >:( */
+@media(min-width: 768px){
+
+header img{
+    width: 25%;
+    padding: 20px 0;
+}
+
+nav{
+    background-color: #B04600;
+}
+
+nav li{
+    display: inline-block;
+    border: none;
+}
+
+nav li a{
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+}
+
+/* ok tablet done :) */
+
+/* Desktop stuff */
+
+@media(min-width: 1024px){
+
+}
+
+/* Desktop is over */
