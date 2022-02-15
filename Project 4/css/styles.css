@@ -20,6 +20,23 @@ h2, h3{
     padding: 10px;
 }
 
+audio, video{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+
+.mobile-img{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.desktop{
+    display: none;
+}
+
 /* yooooo now i can say funny stuff in here too */
 
 
@@ -89,6 +106,14 @@ header img{
     padding: 20px 0;
 }
 
+main img{
+    width:35%;
+}
+
+.col img{
+    width: 65%;
+}
+
 nav{
     background-color: #B04600;
 }
@@ -112,7 +137,50 @@ nav li a{
 /* Desktop stuff */
 
 @media(min-width: 1024px){
+    #container{
+        width: 65%;
+        margin: 20px auto;
+    }
 
+    header img{
+        width: 35%;
+    }
+    
+    main img{
+        width: 20%;
+    }
+
+    #flex{
+        display: flex;
+    }
+
+    .col{
+        width: 37.666666666666555534323%;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+
+    footer{
+        background-color: black;
+        color: aliceblue;
+    }
+
+    table, td, tr{
+        border: 1.5px solid black;
+        padding: 20px;
+    }
+
+    table img{
+        width: 100%;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
 }
 
 /* Desktop is over */
