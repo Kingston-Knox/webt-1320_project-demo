@@ -6,7 +6,10 @@ img{
 }
 
 body{
-    background-color: #B04600;
+    background-color: black;
+    text-align: center;
+    background-image: url(../images/badlands.jfif);
+    background-size:cover;
 }
 
 h2, h3{
@@ -15,7 +18,7 @@ h2, h3{
 }
 
 #container{
-    background-color: #19F4FF;
+    background-color: lightgray;
     margin: 10px;
     padding: 10px;
 }
@@ -51,7 +54,7 @@ header h1{
 }
 
 nav{
-    background-color: #00A5AD;
+    background-color: #B04600;
     text-align: center;
 }
 
@@ -62,7 +65,7 @@ nav ul{
 
 nav li{
     display: block;
-    border-top: 4px solid #19F4FF;
+    border-top: 4px solid #B04600;
 }
 
 nav li a{
@@ -94,7 +97,8 @@ main img{
 footer{
     padding: 35px;
     text-align: center;
-    color: darkslategray;
+    color: white;
+    background-color: #B04600;
 }
 /* the global stuff is over */
 
