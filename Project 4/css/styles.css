@@ -205,6 +205,10 @@ video{
         display: flex;
     }
 
+    #flex2{
+        display: flex;
+    }
+
     .col{
         width: 37.666666666666555534323%;
         margin-top: 40px;
