@@ -10,11 +10,17 @@ body{
     text-align: center;
     background-image: url(../images/badlands.jfif);
     background-size:cover;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif; 
 }
 
 h2, h3{
     color: darkslategray;
     text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #container{
@@ -100,6 +106,33 @@ footer{
     color: white;
     background-color: #B04600;
 }
+
+.soldier-img{
+    border: 2px solid black;
+    padding: 10px;
+    width: 45%;
+}
+
+.learn-more{
+    background-color: green;
+    color: black;
+    display: block;
+    height: 35px;
+    line-height: 40px;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.learn-more:hover{
+    background-color: grey;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
 /* the global stuff is over */
 
 /* tablet stuff now >:( */
@@ -116,6 +149,7 @@ main img{
 
 .col img{
     width: 65%;
+    height: 40%;
 }
 
 nav{
@@ -132,6 +166,19 @@ nav li a{
     width: 200px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.col2{
+    width: 45%;
+    height: 45%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+video{
+    height: 80%;
+    width: 80%;
 }
 
 }
@@ -184,6 +231,11 @@ nav li a{
 
     .desktop{
         display: block;
+    }
+
+    video{
+        width: 75%;
+        height: 75%;
     }
 }
 
