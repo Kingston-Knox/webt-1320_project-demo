@@ -84,7 +84,7 @@ nav li a{
     text-decoration: none;
 }
 
-nav list a:hover{
+nav li a:hover{
     background-color: #FA6300;
     color: black;
 }
