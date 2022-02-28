@@ -26,6 +26,13 @@ header{
     text-align: center;
     background-color: white;
     border-bottom: 5px solid yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header img{
+    width: 30%;
+    height: 30%;
 }
 
 main{
@@ -92,9 +99,10 @@ footer{
 
 .colm{
     padding: 20px;
-    margin: 10px;
+    margin: auto;
     border: 2px solid black;
     border-radius: 25px;
+    width: 70%;
 }
 
 .open{
@@ -122,6 +130,7 @@ footer{
     color: white;
     display: block;
     height: 40px;
+    width: 30%;
     line-height: 45px;
     font-size: 1.3em;
     text-decoration: none;
@@ -150,12 +159,20 @@ footer{
     }
 
     header img{
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     }
 
     main{
         font-size: 1.5em;
+    }
+
+    .colm{
+        width: 40%;
+        height: 40%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     
@@ -172,6 +189,10 @@ footer{
     }
     .colm{
         font-size: 0.7em;
+        width: 500px;
+        height: 500px;
+        padding: 0%;
+        margin: auto;
     }
 
 .break{
@@ -179,8 +200,8 @@ footer{
 }
 
 header img{
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 35%;
 }
 
 nav{
