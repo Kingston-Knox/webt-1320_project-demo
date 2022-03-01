@@ -205,6 +205,9 @@ footer{
     #flex{
         display: flex;
     }
+    #flex2{
+        display: flex;
+    }
     .colm{
         font-size: 0.7em;
         width: 500px;
